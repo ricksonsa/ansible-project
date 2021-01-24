@@ -9,9 +9,9 @@
 	#ServerName www.example.com
 
 	ServerAdmin webmaster@localhost
-	DocumentRoot /var/www/wordpress
+	DocumentRoot {{ wp_install_dir }}
 
-	# Available loglevels: iiii, trace8, ..., trace1, debug, info, notice, warn,
+	# Available loglevels: ii, trace8, ..., trace1, debug, info, notice, warn,
 	# error, crit, alert, emerg.
 	# It is also possible to configure the loglevel for particular
 	# modules, e.g.
